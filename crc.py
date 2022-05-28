@@ -1,9 +1,8 @@
-"""CRC calculation."""
+"""CRC calculation according to ECSS-E-70-41A."""
 
 
 def crc(data: bytes) -> bytes:
-    """Calculate the CRC for the given input bytes string according to
-    ECSS-E-70-41A.
+    """Calculate the CRC for the given input bytes string.
 
     Parameters
     ----------
