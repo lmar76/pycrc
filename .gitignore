@@ -1,5 +1,13 @@
 # Python environment
 venv/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
 # PyCharm
 .idea/
